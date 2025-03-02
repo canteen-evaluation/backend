@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.neu.edu</groupId>
-    <artifactId>blast_distribution_backend</artifactId>
+    <artifactId>backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>blast_distribution_backend</name>
     <description>blast_distribution_backend</description>
