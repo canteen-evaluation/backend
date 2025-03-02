@@ -3,11 +3,8 @@ package canteen_evaluation_backend.vo;
 public class TestVo {
     private String name;
 
-    private String city;
-
-    public TestVo(String name, String city) {
+    public TestVo(String name) {
         this.name = name;
-        this.city = city;
     }
 
     public String getName() {
@@ -16,13 +13,5 @@ public class TestVo {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 }

@@ -33,7 +33,7 @@ public class TestController {
         // transform to vo
         List<TestVo> resultVoList = new ArrayList<>();
         resultList.forEach(testPojo -> {
-            TestVo testVo = new TestVo(testPojo.getName(), testPojo.getCity());
+            TestVo testVo = new TestVo(testPojo.getUserName());
             resultVoList.add(testVo);
         });
 
