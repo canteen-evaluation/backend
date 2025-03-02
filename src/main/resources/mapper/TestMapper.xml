@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="canteen_evaluation_backend.dao.TestMapper" >
+
+    <select id="getAll" resultType="canteen_evaluation_backend.pojo.TestPojo">
+        SELECT * FROM MG_BLAST.TABLE_TEST
+    </select>
+</mapper>
