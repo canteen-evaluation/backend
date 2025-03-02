@@ -3,6 +3,6 @@
 <mapper namespace="canteen_evaluation_backend.dao.TestMapper" >
     <!-- 这里可以不指定 db 的名字，也可以指明-->
     <select id="getAll" resultType="canteen_evaluation_backend.pojo.TestPojo">
-        SELECT * FROM TABLE_TEST
+        SELECT * FROM canteen_evaluation.table_test
     </select>
 </mapper>

@@ -5,8 +5,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/canteen_evaluation?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
-    username: root
+    url: jdbc:mysql://119.3.232.89:3306/canteen_evaluation?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: canteen_evaluation
     password: canteen_evaluation
     type: com.alibaba.druid.pool.DruidDataSource
 
