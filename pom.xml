@@ -11,8 +11,8 @@
     <groupId>com.neu.edu</groupId>
     <artifactId>backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>blast_distribution_backend</name>
-    <description>blast_distribution_backend</description>
+    <name>canteen_evaluation_backend</name>
+    <description>canteen_evaluation_backend</description>
     <properties>
         <java.version>17</java.version>
     </properties>

@@ -1,8 +1,9 @@
-# 数据库连接
 server:
   port: 8888
 
+
 spring:
+  # 数据库连接
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://119.3.232.89:3306/canteen_evaluation?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
